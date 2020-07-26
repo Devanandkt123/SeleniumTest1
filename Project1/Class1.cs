@@ -24,7 +24,7 @@ namespace Project1
         {
             IWebElement searchtextbox = driver.FindElement(By.Name("q"));
             searchtextbox.SendKeys("Selenium by C#");
-            Console.WriteLine("Google search text entered!!!!");
+            Console.WriteLine("Google search text entered!!!");
             searchtextbox.SendKeys(Keys.Enter);
             var title = driver.Title.ToString();
             Assert.AreEqual("Selenium by C# - Google Search", title);
