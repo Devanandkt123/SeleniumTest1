@@ -28,7 +28,7 @@ namespace Project1
             searchtextbox.SendKeys(Keys.Enter);
             var title = driver.Title.ToString();
             Assert.AreEqual("Selenium by C# - Google Search", title);
-            Console.WriteLine("Google search done successfully!!");
+            Console.WriteLine("Google search done successfully!");
         }
         [TearDown]
         public void Cleanup()
