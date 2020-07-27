@@ -29,7 +29,7 @@ namespace Project1
             var title = driver.Title.ToString();
             Assert.AreEqual("Selenium by C# - Google Search", title);
             Console.WriteLine("Google search done successfully!");
-            Console.WriteLine("Excution completed!");
+            Console.WriteLine("Excution completed!!");
         }
         [TearDown]
         public void Cleanup()
